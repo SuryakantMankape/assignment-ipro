@@ -1,0 +1,35 @@
+<div class="container">
+
+    <div class="row pt-5 mt-5" >
+
+        <div *ngFor="let employee of employeelist">
+            
+            <div class="col-sm-4">
+
+                <div class="col-padding">
+                  <br><br>
+                  <img [src] ="employee.url" height="70px" width="200px" >
+            
+                  <h4><b>ID : </b>{{employee.id}}</h4>
+
+                  <small><b>Title : </b>{{employee.title}}</small><br>
+
+                  <small><b>URL : </b>{{employee.url}}</small>
+
+                  <br><br>
+
+                  <button *ngIf="employee.addEmp" (click)="employeeId(employee)">Compare</button>
+                  <button *ngIf="employee.removeEmp" (click)="employeeRemove(employee)">Remove</button>
+
+                  <br><br>
+
+                </div>
+
+              </div>
+
+        </div>
+
+    </div>
+  
+</div>
+

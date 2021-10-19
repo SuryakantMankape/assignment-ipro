@@ -1,0 +1,16 @@
+/* Tablet and bigger */
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+
+.col-padding {
+    border: 1px solid black;
+    margin: 5px;
+}
