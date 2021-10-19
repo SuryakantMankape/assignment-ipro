@@ -44,6 +44,7 @@ export class PhotoCompareComponent implements OnInit {
       console.log(this.employeelist);
      })
     
+     
   }    
 
   employeeId(employee:any){

@@ -8,6 +8,7 @@ import { EmployeeService } from './app.service';
 import { TableComponent } from './table/table.component';
 import { PhotoCompareComponent } from './photo-compare/photo-compare.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

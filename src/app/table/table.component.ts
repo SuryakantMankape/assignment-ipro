@@ -22,6 +22,7 @@ export class TableComponent implements OnInit {
         console.log(this.employeeList);
      */
 
+        
 /*     this.employeeService.getData().subscribe((data) => {
       console.log(data);
       this.employeeList = this.employeeList.push(data);
